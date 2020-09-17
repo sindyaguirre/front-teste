@@ -1,0 +1,151 @@
+
+body{
+    width: 100%;
+}
+.cabecalho{
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    width: 99%;
+    padding: 0;
+    margin-top: 0;
+    height: 100px;
+}
+.cabecalho .logo{
+    width: 30%;
+    height: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 12%;
+    margin: 0px 0px 0 2px;
+}
+.cabecalho .logo a{
+    padding: 14% 0% 0% 0%;
+    font-size: 22px;
+}
+.cabecalho .logo a img{
+    height: 103px;
+}
+.cabecalho ul.menu li a{
+    color: #1D69E5;
+    padding: 21% 0% 0% 0%;
+    margin: 0px 10px;
+}
+.cabecalho a{
+    text-decoration: none;
+    position: relative;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.cabecalho ul{
+    width: 34%;
+    float: right;
+    position: relative;
+    list-style-type: none;
+    margin-top: -6%;
+    height: 73%;
+}
+.cabecalho ul li{
+    float: left;
+    text-align: center;
+}
+.conteudo{
+   position: absolute;
+   width: 100%;
+   
+font-family: Arial, Helvetica, sans-serif;
+}
+.newslatter{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+.newslatter_description h1{
+    font-size: 60px;
+}
+.newslatter_description p{
+    font-size: 48px;
+    width: 88%;
+    padding: 1% 8%;
+    text-align: left;
+}
+.newslatter_description{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background: #00b3ea;
+    text-align: center;
+    color: #FFF;
+    font-size: 22px;
+}
+
+.newslatter-btn{
+
+    width: 100%;
+    padding: 0;
+    margin-top: 10%;
+}
+.newslatter-btn a{
+    text-decoration: none;
+    width: 50%;
+    background: #ff8900;
+    text-align: center;
+    padding: 2% 24%;
+    border-radius: 5px;
+    color:#fff;
+}
+
+.newslatter_banner{
+    position: relative;
+    width: 60%;
+    float: right;
+}
+.newslatter_img{
+    padding: 250px 200px;
+    background: url(../imagens/banner/youth-570881_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.conteudo_newslatter{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 42%;
+}
+.bloco_newslatter{
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+}
+.bloco_newslatter_img{
+    padding: 100px 100px;
+    background: url(../imagens/banner/youth-570881_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bloco_newslatter_title{
+    text-align: left;
+    padding: 5% 0% 5% 5%;
+    width: 90%;
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+.bloco_newslatter_text{
+    padding: 5% 10px;
+    text-align: justify;
+}
+.bloco_newslatter_btn{
+    text-align: left;
+    margin-left: 5%;
+}
+.bloco_newslatter_btn a{
+    color:#ff8900;
+    text-decoration: none;
+    font-size: 22px;
+}
